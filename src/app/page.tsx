@@ -1,3 +1,5 @@
+import Countdown from "../components/countdown";
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center text-center w-full max-w-4xl mx-auto py-12 px-4">
@@ -11,16 +13,19 @@ export default function Home() {
         Robert &amp; Joyce
       </h1>
       
-      <p className="text-lg md:text-xl text-stone-600 font-serif italic mb-10 max-w-xl">
+      <p className="text-lg md:text-xl text-stone-600 font-serif italic mb-6 max-w-xl">
         Together with their families, invite you to celebrate their garden wedding.
       </p>
+
+      {/* Real-time Countdown Timer */}
+      <Countdown targetDate="2027-06-05T15:00:00" />
 
       {/* Main Details Glassmorphic Card */}
       <div className="w-full bg-white/85 backdrop-blur-md rounded-3xl p-8 md:p-10 shadow-xl border border-emerald-100/90 mb-10 transition-transform duration-300">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-stone-700 divide-y md:divide-y-0 md:divide-x divide-emerald-100">
           <div className="flex flex-col items-center pb-4 md:pb-0 md:pr-4">
             <span className="text-emerald-800 font-semibold mb-1 text-xs uppercase tracking-widest">Date</span>
-            <span className="font-serif text-lg text-stone-800">Saturday, June 5, 2026</span>
+            <span className="font-serif text-lg text-stone-800">Saturday, June 5, 2027</span>
           </div>
           <div className="flex flex-col items-center py-4 md:py-0 md:px-4">
             <span className="text-emerald-800 font-semibold mb-1 text-xs uppercase tracking-widest">Time</span>
