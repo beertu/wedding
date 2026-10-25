@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center text-center px-4">
       <h1 className="text-5xl font-bold">
-        Jan Robert & Joyce
+        Robert & Joyce
       </h1>
 
       <p className="mt-4 text-xl">
