@@ -51,6 +51,17 @@ export default function Navbar() {
         >
           Gallery
         </Link>
+
+        <Link 
+          href="/callie" 
+          className={`px-3 py-2 rounded-lg transition-all duration-200 ${
+            isActive("/callie") 
+              ? "bg-emerald-200 text-emerald-950 font-semibold shadow-xs" 
+              : "hover:bg-emerald-100 hover:text-emerald-950"
+          }`}
+        >
+          🐕 Callie
+        </Link>
         
         <Link 
           href="/faq" 
